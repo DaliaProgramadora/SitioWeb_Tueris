@@ -1,0 +1,127 @@
+body {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.btn-bolsa {
+    background-color: #2c97c5;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-bolsa:hover {
+    background-color: #489fb5;
+}
+.primerprod{
+    margin-top: 180px;
+}
+.bg-tienda {
+    background-image: url(../imgs/shopfondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+.card{
+    width: 18rem;
+}
+.redes {
+    display: flex;
+    gap: 15px;
+}
+
+.redestodo {
+    display: flex;
+    justify-content: end;
+}
+
+.red {
+    width: 40px;
+    height: 40px;
+}
+
+.red {
+    width: 40px;
+    height: 40px;
+}
+
+.red:hover {
+    transform: scale(1.1);
+}
+
+/* scroll */
+#scrollup {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#scrollup:hover {
+    background-color: #a4d2d3;
+    color: #000000;
+}
+.shopsita{
+    display: flex;
+    justify-content: center;
+    width: 630px;
+}
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    .cards{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .card{
+        width: 14rem;
+    }
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-creditos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .redestodo {
+        display: flex;
+        justify-content: center;
+    }
+    .shopsita{
+        display: flex;
+        justify-content: center;
+        width: 450px;
+    }
+    .bg-tienda {
+        background-image: url(../imgs/shopfondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .primerprod{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,101 @@
+body {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    background-color: #a4d2d318;
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.seccion-uno {
+    background-image: url("../imgs/comicfondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.comic {
+    border: 15px solid #0b3b50;
+}
+
+.seccion-dos {
+    background: #a4d2d3;
+}
+
+.log {
+    color: #377375;
+}
+
+.redes {
+    display: flex;
+    gap: 15px;
+}
+
+.redestodo {
+    display: flex;
+    justify-content: end;
+}
+
+.red {
+    width: 40px;
+    height: 40px;
+}
+
+.red {
+    width: 40px;
+    height: 40px;
+}
+
+.red:hover {
+    transform: scale(1.1);
+}
+
+/* scroll */
+#scrollup {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#scrollup:hover {
+    background-color: #a4d2d3;
+    color: #000000;
+}
+
+.bg-footer {
+    background-color: #a4d2d318;
+}
+@media screen and (max-width: 576px) {
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+      }
+    
+      .logo-creditos {
+        display: flex;
+        justify-content: center;
+      }
+      .redestodo{
+        display: flex;
+        justify-content: center;
+      }
+}

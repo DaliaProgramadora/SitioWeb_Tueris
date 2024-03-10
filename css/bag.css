@@ -1,0 +1,71 @@
+body {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    background-color: rgba(128, 128, 128, 0.027);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon:hover {
+    transform: scale(1.1);
+}
+.seguir{
+    color: black;
+}
+.seguir:hover{
+    color: #0b3b50;
+}
+.redestodo {
+    display: flex;
+    justify-content: end;
+}
+.redes {
+    display: flex;
+    gap: 15px;
+}
+
+.red {
+    width: 40px;
+    height: 40px;
+}
+
+/* scroll */
+#scrollup {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#scrollup:hover {
+    background-color: #a4d2d3;
+    color: #000000;
+}
+@media screen and (max-width: 576px) {
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+      }
+    
+      .logo-creditos {
+        display: flex;
+        justify-content: center;
+      }
+      .redestodo{
+        display: flex;
+        justify-content: center;
+      }
+}
