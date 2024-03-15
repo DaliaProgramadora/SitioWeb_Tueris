@@ -2,11 +2,11 @@ body {
   font-family: "Nunito Sans", sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("../imgs/Fondo.png");
+  background-image: url("../imgs/FondoTueris_1.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: 150vh;
 }
 
 @font-face {
@@ -87,7 +87,7 @@ ul {
   text-align: left;
 }
 .img-heidi {
-  width: 600px;
+  width: 100%;
 }
 
 .texto-proyecto {
@@ -236,10 +236,10 @@ ul {
 }
 .heidisilenciador{
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 .img-comic{
-  width: 500px;
+  width: 100%;
 }
 .seccion-creadora {
   margin-top: -10px;

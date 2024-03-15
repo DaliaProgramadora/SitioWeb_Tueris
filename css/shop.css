@@ -23,18 +23,23 @@ body {
 .btn-bolsa:hover {
     background-color: #489fb5;
 }
-.primerprod{
-    margin-top: 180px;
+
+.primerprod {
+    margin-top: 20px;
 }
+
 .bg-tienda {
     background-image: url(../imgs/shopfondo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: auto;
 }
-.card{
-    width: 18rem;
+
+.card {
+    width: 100%;
+    margin: 10px;
 }
+
 .redes {
     display: flex;
     gap: 15px;
@@ -50,16 +55,10 @@ body {
     height: 40px;
 }
 
-.red {
-    width: 40px;
-    height: 40px;
-}
-
 .red:hover {
     transform: scale(1.1);
 }
 
-/* scroll */
 #scrollup {
     position: fixed;
     bottom: 40px;
@@ -79,49 +78,43 @@ body {
     background-color: #a4d2d3;
     color: #000000;
 }
-.shopsita{
+
+.shopsita {
     display: flex;
     justify-content: center;
-    width: 630px;
+    max-width: 100%;
+    margin: 20px 0;
 }
-@media only screen and (min-width: 360px) and (max-width: 800px) {
-    .cards{
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
+.shoplogo {
+    width: 450px;
+}
+@media screen and (max-width: 767px) {
+    .bg-tienda {
+        height: auto;
     }
-    .card{
-        width: 14rem;
+
+    .primerprod {
+        margin-top: 10px;
+    }
+
+    .shopsita {
+        width: 100%;
+    }
+    .shoplogo {
+        width: 400px;
     }
     .logo-footer {
         display: flex;
         justify-content: center;
-    }
-
-    .logo-creditos {
+      }
+    
+      .logo-creditos {
         display: flex;
         justify-content: center;
-    }
-
-    .redestodo {
+      }
+      .redestodo{
         display: flex;
         justify-content: center;
-    }
-    .shopsita{
-        display: flex;
-        justify-content: center;
-        width: 450px;
-    }
-    .bg-tienda {
-        background-image: url(../imgs/shopfondo.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
-    }
-    .primerprod{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+      }
+      
 }
